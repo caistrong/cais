@@ -1,0 +1,12 @@
+<% if(page.type == "tags") { %>
+    <% console.log("hi tags") %>
+    <%- tagcloud() %>
+<% } %>
+<% if(page.type == "about") { %>
+    <%- partial("_partial/about") %>
+<% } %>
+
+<% if(page.type == "categories") { %>
+    <% console.log("hi tags") %>
+    <%- list_categories() %>
+<% } %>

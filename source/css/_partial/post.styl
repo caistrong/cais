@@ -1,0 +1,29 @@
+.post
+    margin: 1rem auto
+    padding: 1.2rem 2.3rem
+    background-color: c-white
+    border: 1px solid c-bordergray
+    box-shadow: 0 0 2px c-bodergray
+
+.post
+.posts
+    //这里的first-child不是指post的第一个子节点
+    //而是posts的第一个子节点
+    .post:first-child 
+        margin-top: 0
+    .post-title 
+        font-size: 1.5rem
+        .post-title-link
+            color: c-green
+            text-decoration: none
+    .post-content 
+        font-size: 1.2rem
+        a
+            color: c-darkgray
+            &:hover
+                color: c-black
+    .post-meta 
+        color: c-darkgray
+        .post-time
+            font-size: 1rem
+
