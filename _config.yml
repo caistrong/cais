@@ -1,7 +1,7 @@
 menu:
-    Home: /
-    Archives: /archives
-    Tag: /tags
-    Categories: /categories
-    About: /about
+    主页: /
+    归档: /archives
+    标签: /tags
+    分类: /categories
+    简历: /about
     Github: https://github.com/caistrong

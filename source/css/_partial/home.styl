@@ -1,0 +1,19 @@
+.paper-style
+    position: relative
+    &:before
+    &:after
+        z-index: -1;
+        position: absolute;
+        content: "";
+        bottom: 15px;
+        left: 10px;
+        width: 50%;
+        top: 80%;
+        max-width:300px;
+        background: #777;
+        box-shadow: 0 15px 10px #777;
+        transform: rotate(-3deg);
+    &:after
+        transform: rotate(3deg);
+        right: 10px;
+        left: auto;

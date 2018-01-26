@@ -1,0 +1,20 @@
+.categories
+    background-color: c-white
+    border: 1px solid c-bordergray
+    padding: c-blockpadding
+    .category-list
+        margin: 0
+        padding: 0
+    .category-list-item
+        color: c-darkgray
+        a
+            text-decoration: none
+            color: c-darkgray
+            &:hover
+                color: c-black
+        span
+            float: right
+            &::before
+                content:"("
+            &::after
+                content:")"

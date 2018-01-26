@@ -3,6 +3,17 @@
         <h2 class="title"> <%= page.title %> </h2>
     </div>
     <div class="post-meta">
+        <span class="post-category">
+            <%- list_categories(page.categories, {
+                show_count: false,
+                depth:1,
+            }) %>
+        </span>
+        <span class="post-tags">
+            <%- list_tags(page.tags, {
+                show_count: false,
+            }) %>
+        </span>
         <span class="post-time">
             <%- date(page.date,"YYYY-MM-DD") %>
         </span>
